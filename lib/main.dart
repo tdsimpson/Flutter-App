@@ -19,7 +19,7 @@ class Home extends StatelessWidget {
                 icon: Icon(
                     Icons.mail
                 ),
-                label: Te xt('Mail me'),
+                label: Text('Mail me'),
                 color: Colors.amber,
             ),
             ),
