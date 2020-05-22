@@ -14,13 +14,13 @@ class _HomeState extends State<Home> {
           children: <Widget>[
             FlatButton.icon(
               onPressed: (){
-                Navigator.pushNamed(context, 'location'),
+                Navigator.pushNamed(context, '/location');
               },
-              icon: Icon(Icons.edit_location);
-              label: Text('Edit Location')
+              icon: Icon(Icons.edit_location),
+              label: Text('Edit Location'),
             ),
           ],
-        )
+        ),
       )
     );
   }
