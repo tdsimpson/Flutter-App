@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/services/world_time.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart;
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 class Loading extends StatefulWidget {
   @override
@@ -16,7 +16,7 @@ class _LoadingState extends State<Loading> {
       'location': instance.location,
       'flag': instance.flag,
       'time': instance.time,
-      'isDaytime': instance.isDaytime;
+      'isDaytime': instance.isDaytime
     });
   }
 
@@ -31,7 +31,7 @@ class _LoadingState extends State<Loading> {
     return Scaffold(
       backgroundColor: Colors.blue [900],
       body: Center(
-        child: spinkit = SpinKitRotatingCircle(
+        child: SpinKitRotatingCircle(
           color: Colors.white,
           size: 50.0,
         ),
