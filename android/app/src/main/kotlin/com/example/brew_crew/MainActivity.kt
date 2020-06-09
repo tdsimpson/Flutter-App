@@ -1,4 +1,4 @@
-package com.example.myapp
+package com.example.brew_crew
 
 import io.flutter.embedding.android.FlutterActivity
 
