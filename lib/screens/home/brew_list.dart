@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:brew_crew/models/brew.dart';
-import 'package:brew_crew/screens/home/brew_tile.dart';
+import 'package:skating_19/models/brew.dart';
+import 'package:skating_19/screens/home/brew_tile.dart';
 
 class BrewList extends StatefulWidget {
   @override

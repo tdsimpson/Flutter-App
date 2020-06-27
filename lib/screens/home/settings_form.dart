@@ -1,8 +1,8 @@
-import 'package:brew_crew/models/user.dart';
-import 'package:brew_crew/services/database.dart';
-import 'package:brew_crew/shared/loading.dart';
+import 'package:skating_19/models/user.dart';
+import 'package:skating_19/services/database.dart';
+import 'package:skating_19/shared/loading.dart';
 import 'package:flutter/material.dart';
-import 'package:brew_crew/shared/constants.dart';
+import 'package:skating_19/shared/constants.dart';
 import 'package:provider/provider.dart';
 
 class SettingsForm extends StatefulWidget {

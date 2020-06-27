@@ -1,6 +1,6 @@
-import 'package:brew_crew/screens/authenticate/sign_in.dart';
+import 'package:skating_19/screens/authenticate/sign_in.dart';
 import 'package:flutter/material.dart';
-import 'package:brew_crew/screens/authenticate/register.dart';
+import 'package:skating_19/screens/authenticate/register.dart';
 
 class Authenticate extends StatefulWidget {
   @override

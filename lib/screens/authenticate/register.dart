@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:brew_crew/services/auth.dart';
-import 'package:brew_crew/shared/constants.dart';
-import 'package:brew_crew/shared/loading.dart';
+import 'package:skating_19/services/auth.dart';
+import 'package:skating_19/shared/constants.dart';
+import 'package:skating_19/shared/loading.dart';
 
 class Register extends StatefulWidget {
   final Function toggleView;
@@ -26,15 +26,17 @@ class _RegisterState extends State<Register> {
     return loading
         ? Loading()
         : Scaffold(
-            backgroundColor: Colors.brown[100],
+            backgroundColor: Colors.white,
             appBar: AppBar(
-              backgroundColor: Colors.brown[400],
+              backgroundColor: Colors.black,
               elevation: 0.0,
-              title: Text('Sign up for Brew Crew'),
+              title: Text('NJSSC COVID19 Tracker'),
               actions: <Widget>[
-                FlatButton.icon(
-                  icon: Icon(Icons.person),
-                  label: Text('Sign In'),
+                FlatButton(
+                  child: Text(
+                    'Sign In',
+                    style: TextStyle(color: Colors.white),
+                  ),
                   onPressed: () {
                     widget.toggleView();
                   },
@@ -69,7 +71,7 @@ class _RegisterState extends State<Register> {
                         }),
                     SizedBox(height: 20.0),
                     RaisedButton(
-                        color: Colors.pink[400],
+                        color: Colors.black,
                         child: Text(
                           'Register',
                           style: TextStyle(color: Colors.white),

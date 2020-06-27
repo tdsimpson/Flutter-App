@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:brew_crew/models/brew.dart';
+import 'package:skating_19/models/brew.dart';
 
 class BrewTile extends StatelessWidget {
   final Brew brew;
